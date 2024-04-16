@@ -36,3 +36,11 @@ for i in range(8):
     plt.title("{}:{}".format(training_labels[i], labelDict[training_labels[i]]))
 
     # Adds a subplot at the 2nd position
+
+data_idx = 6174
+
+plt.figure()
+plt.imshow(test_images[data_idx], cmap="gray")
+plt.colorbar()
+plt.grid(False)
+plt.show()
